@@ -8,6 +8,7 @@ masterTable.addEventListener('click', deleteBook)
 form.addEventListener('submit', addBook)
 document.addEventListener("DOMContentLoaded", getBooks)
 
+
 function addBook(event){
     const row = masterTable.insertRow()
 
