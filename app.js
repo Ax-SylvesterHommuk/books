@@ -16,7 +16,7 @@ function addBook(event){
     const cell4 = row.insertCell()
 
     const cross = document.createElement('a')
-    cross.appendChild(document.createTextNode('❌')) // change to X
+    cross.appendChild(document.createTextNode('❌'))
     cross.className = 'red-text text-darken-2 secondary-content'
     cross.setAttribute('href', '#')
 
