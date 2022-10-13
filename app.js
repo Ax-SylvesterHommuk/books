@@ -80,6 +80,7 @@ function deleteBookLS(book){
     localStorage.setItem('books', JSON.stringify(books))
 }
 
+
 function getBooks(){
     let books
     if(localStorage.getItem('books') === null){
